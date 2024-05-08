@@ -1,29 +1,31 @@
-# NotesApp
 
-This template should help get you started developing with Vue 3 in Vite.
+# Notes App 📝
 
-## Recommended IDE Setup
+Este é um projeto para criação de notas, semelhante ao Google Keep ou um PostIt 😅
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Stack utilizada
 
-## Customize configuration
+Vue 3
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Funcionalidades
 
-## Project Setup
+- Criação e deleção de notas.
+- A notas ficam salvas no LocalStorage. Sendo assim o usuário pode entar e sair da aplicação sem se preocupar em perder as notas criadas.
 
-```sh
-npm install
+
+## Requisitos
+
+- Node v20.11.0 ou superior
+
+
+## Como utilizar?
+
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+1. Clone o projeto para o seu computador.
+2. Abra o projeto em sua IDE ou acesse a pasta do projeto pelo Terminal.
+3. Rode o comando "npm dun dev" pra o modo desenvolvimento ou "npm run build" para modo de produção.
+4. Siga as instruções na tela para usar o sistema.
 ```
+## Demonstração
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+https://notesbrasil.vercel.app/
